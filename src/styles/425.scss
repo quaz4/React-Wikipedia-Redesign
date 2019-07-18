@@ -1,0 +1,21 @@
+@media only screen and (min-width: 425px) {
+  nav {
+    div.user {
+      height: $nav-height;
+      width: $nav-height;
+      background-color: #bebebe;
+      object-fit: center;
+      display: block;
+      margin-left: auto;
+
+      img {
+        height: inherit;
+        width: inherit;
+      }
+    }
+
+    div.hamburger {
+      margin-left: 0;
+    }
+  }
+}
